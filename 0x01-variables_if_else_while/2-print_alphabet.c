@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+*main - printing alphabet
+*Return: 0 in success
+*/
 int main(void)
 {
 char x;
