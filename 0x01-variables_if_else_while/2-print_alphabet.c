@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(void)
 {
-int ch;
-for (ch= 'A'; ch <= 'Z'; ch++)
-putchar(ch);
- putchar('\n');
+char x;
+for (x = 'A'; x <= 'Z'; x++)
+putchar(x);
+putchar('\n');
 return (0);
 }
