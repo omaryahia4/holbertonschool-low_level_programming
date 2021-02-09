@@ -1,7 +1,6 @@
 #include "holberton.h"
 /**
 *print_alphabet_x10 - print alphabet in 10 lines.
-*@c : input character
 */
 void print_alphabet_x10(void)
 {
@@ -14,5 +13,4 @@ _putchar(c);
 }
 _putchar('\n');
 }
-return (0);
 }
