@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-* main - islower function
+* _islower - islower function
 * @c: an integer
 * Return:1 for lowercase. 0 for the rest.
 */
