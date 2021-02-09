@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
 *print_to_98 - print to 98
 *@n:integer.
