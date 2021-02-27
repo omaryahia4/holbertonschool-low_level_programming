@@ -14,19 +14,18 @@ char *_strpbrk(char *s, char *accept)
 	char *p = NULL;
 
 	while (s[i] != '\0' && oc == 0)
+	{
+		for (j = 0; accept[j] != '\0'; j++)
 		{
-			for (j = 0; accept[j] != '\0'; j++)
-				{
-					if (s[i] == accept[j])
-						{
-							oc = 1;
-							p = &s[i];
-							break;
-						}
-				}
-			i++;
+			if (s[i] == accept[j])
+			{
+				oc = 1;
+				p = &s[i];
+				break;
+			}
 		}
+			i++;
+	}
 
 	return (p);
-
 }
