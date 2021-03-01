@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-*main - function that prints all arguments.
-*@argc: integer
-*@argv: string
-*Return: result or 1
+*main - function that multiplies two numbers.
+*@argc:integer
+*@argv:string
+*Return:result or 1
 */
 int main(int argc, char *argv[])
 {
