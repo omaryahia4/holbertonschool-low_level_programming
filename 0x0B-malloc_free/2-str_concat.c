@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
-* *str_concat - concatenates two strings.
+**str_concat - concatenates two strings.
 *@s1:string number 1
 *@s2: string number 2
 *Return: p
@@ -32,9 +32,9 @@ char *str_concat(char *s1, char *s2)
 	{
 		return (NULL);
 	}
-	for (i = 0; i <= len1; i++)
+	for (i = 0; i < len1; i++)
 		p[i] = s1[i];
-	for (j = 0; j <= len2; j++)
+	for (j = 0; j < len2; j++)
 		p[len1 + j] = s2[j];
 		p[len1 + len2] = '\0';
 	return (p);
