@@ -24,10 +24,10 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	for (i = 0; i <= len; i++)
+	for (i = 0; i <= len + 1; i++)
 	{
 		array[i] = str[i];
 	}
-	array[i] = '\0';
+	
 	return (array);
 }
