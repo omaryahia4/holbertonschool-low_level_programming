@@ -1,7 +1,7 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
-* string_nconcat - concatenate 2 strings
+* *string_nconcat - concatenate 2 strings
 *@s1: string of chars 1
 *@s2: string of chars 2
 *@n:unsigned int
