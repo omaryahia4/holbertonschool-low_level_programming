@@ -3,7 +3,7 @@
 /**
 * free_grid - free an array
 *@grid: grid of integers
-*@height: height of grid 
+*@height: height of grid
 *Return: 0
 */
 void free_grid(int **grid, int height)
