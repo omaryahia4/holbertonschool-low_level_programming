@@ -8,7 +8,7 @@
 
 size_t print_list(const list_t *h)
 {
-	int  i;
+	unsigned int  i;
 
 	i = 0;
 	while (h != NULL)
