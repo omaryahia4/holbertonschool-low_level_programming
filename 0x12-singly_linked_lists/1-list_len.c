@@ -4,15 +4,15 @@
  * @h: pointer
  * Return: number of elements in a linked list
  */
- size_t list_len(const list_t *h)
+size_t list_len(const list_t *h)
 {
 	int i;
 
-	while(h != NULL)
+	while (h != NULL)
 	{
 		h = h->next;
 		i++;
 	}
 return (i);
-	 
+
 }
