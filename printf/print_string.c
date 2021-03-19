@@ -1,5 +1,6 @@
 #include "holberton.h"
 
+
 /**
 * print_c - Print character
 * @ap: argument pointer
@@ -21,7 +22,7 @@ int print_c(va_list ap)
 */
 int print_s(va_list ap)
 {
-	int i, count = 0;
+	int i;
 	char *str;
 
 	str = va_arg(ap, char *);
@@ -30,9 +31,9 @@ int print_s(va_list ap)
 
 	for (i = 0; str[i] != '\0'; i++)
 		_putchar(str[i]);
-		count = count + 1;
 
-	return (count);
+
+	return (i);
 }
 /**
  *print_percent - print_percent
