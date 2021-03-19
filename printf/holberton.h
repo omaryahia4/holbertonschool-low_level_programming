@@ -1,9 +1,9 @@
 #ifndef _HOLBERTON_
 #define _HOLBERTON_
-
 #include <unistd.h>
 #include <stdarg.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
 * struct op - flag / function object
@@ -25,5 +25,4 @@ int print_s(va_list ap);
 int print_percent(va_list arg);
 int print_d(va_list args);
 int print_i(va_list args);
-
 #endif
