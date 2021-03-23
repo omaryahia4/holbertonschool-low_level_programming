@@ -4,9 +4,9 @@
  * @head: pointer to pointer
  * Return: 0
  */
- void free_listint2(listint_t **head)
- {
- listint_t *count;
+void free_listint2(listint_t **head)
+{
+listint_t *count;
 
 	while (*head != NULL)
 	{
@@ -14,6 +14,5 @@
 		*head = count->next;
 		free(count);
 	}
-    head = NULL;
- }
- 
+	head = NULL;
+}
