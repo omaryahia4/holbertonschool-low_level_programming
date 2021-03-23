@@ -11,7 +11,7 @@ listint_t *count;
 	while (*head != NULL)
 	{
 		count = *head;
-		*head = count->next;
+		*head = *head->next;
 		free(count);
 	}
 	head = NULL;
