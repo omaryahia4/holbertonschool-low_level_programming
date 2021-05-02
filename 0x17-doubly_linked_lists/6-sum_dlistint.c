@@ -11,10 +11,10 @@ int sum_dlistint(dlistint_t *head)
 	dlistint_t *ptr;
 
 	ptr = head;
-	if (ptr->next == NULL)
-		{
-			return (0);
-		}
+	if (ptr == NULL)
+	{
+		return (0);
+	}
 	while (ptr->next)
 	{
 	ptr = ptr->next;
