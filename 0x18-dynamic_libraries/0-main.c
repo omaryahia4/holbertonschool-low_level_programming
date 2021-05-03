@@ -9,6 +9,6 @@
  */
 int main(void)
 {
-    printf("%d\n", _strlen("Holberton"));
-    return (EXIT_SUCCESS);
+	printf("%d\n", _strlen("Holberton"));
+	return (EXIT_SUCCESS);
 }
